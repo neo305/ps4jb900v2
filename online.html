@@ -21,22 +21,27 @@
 <button class="btn" onclick=load_arabicGuy127()> Arabic Guy v1.27 </button>
 <button class="btn" onclick=load_arabicGuy132()> Arabic Guy v1.32 </button>
 <button class="btn" onclick=load_arabicGuy133()> Arabic Guy v1.33 </button>
+<button class="btn" onclick=load_WildeModz132()> WildeModz-1.32 v1.1 </button>
+<button class="btn" onclick=load_WildeModz133()> WildeModz-1.33 v1.1 </button>
+<button class="btn" onclick=load_WildeModz138()> WildeModz-1.38 v1.3 </button>
+<br>
 <button class="btn" onclick=load_beefQueef133()> Beef Queef Mod v1.33 </button>
 <button class="btn" onclick=load_beefQueef134()> Beef Queef Mod v1.34 </button>
-<button class="btn" onclick=load_beefQueef138()> Beef Queef Mod v1.38 </button>
+<button class="btn" onclick=load_beefQueef138()> Beef Queef Mod v1.38d </button>
+<button class="btn" onclick=load_Expulsion()> Expulsion v3.0 </button>
 <br>
 <button class="btn" onclick=load_Oysters100()> Oysters Menu v1.00 </button>
 <button class="btn" onclick=load_Oysters113()> Oysters Menu v1.13 </button>
 <button class="btn" onclick=load_Oysters119()> Oysters Menu v1.19 </button>
 <button class="btn" onclick=load_Oysters124()> Oysters Menu v1.24 </button>
+<button class="btn" onclick=load_Oysters124()> Oysters Menu v1.29 </button>
 <br>
 <a href="index.html"><button class="btn btn-web"> Return to Main Page </button></a>
-<h1 style="margin-top: 273px;color: yellow;">Special Thanks to:<a href="https://twitter.com/sleirsgoevy" style="color:#f31414; margin-left: 15px;">@sleirsgoevy</a><a style="color:white; margin-left: 15px;">ChendoChap</a><a href="https://twitter.com/SpecterDev" style="color:#f31414; margin-left: 15px;">@SpecterDev</a><a style="color:white; margin-left: 15px;">SiSTR0</a><a href="https://twitter.com/Znullptr" style="color:#f31414; margin-left: 15px;">@Znullptr</a><a style="color:white; margin-left: 15px;">And Many More Developers ...</a></h1>
+<h1 style="margin-top: 211px;color: yellow;">Special Thanks to:<a href="https://twitter.com/sleirsgoevy" style="color:#f31414; margin-left: 15px;">@sleirsgoevy</a><a style="color:white; margin-left: 15px;">ChendoChap</a><a href="https://twitter.com/SpecterDev" style="color:#f31414; margin-left: 15px;">@SpecterDev</a><a style="color:white; margin-left: 15px;">SiSTR0</a><a href="https://twitter.com/Znullptr" style="color:#f31414; margin-left: 15px;">@Znullptr</a><a style="color:white; margin-left: 15px;">And Many More Developers ...</a></h1>
 <script>
 function load_arabicGuy127(){
 var script = document.createElement('script');script.src = "arabic-guy127.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Arabic Guy v1.27... Please Wait !!!";
-LoadedMSG="Arabic Guy v1.27 Loaded...";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
@@ -44,7 +49,6 @@ setTimeout(poc,1500);
 function load_arabicGuy132(){
 var script = document.createElement('script');script.src = "arabic-guy132.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Arabic Guy v1.32... Please Wait !!!";
-LoadedMSG="Arabic Guy v1.32 Loaded...";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
@@ -52,7 +56,27 @@ setTimeout(poc,1500);
 function load_arabicGuy133(){
 var script = document.createElement('script');script.src = "arabic-guy133.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Arabic Guy v1.33... Please Wait !!!";
-LoadedMSG="Arabic Guy v1.33 Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_WildeModz132(){
+var script = document.createElement('script');script.src = "WildeModz-1.32-1.1.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading WildeModz-1.32 v1.1... Please Wait !!!";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_WildeModz133(){
+var script = document.createElement('script');script.src = "WildeModz-1.33-1.1.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading WildeModz-1.33 v1.1... Please Wait !!!";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_WildeModz138(){
+var script = document.createElement('script');script.src = "WildeModz-1.38-1.3.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading WildeModz-1.38 v1.3... Please Wait !!!";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
@@ -60,7 +84,6 @@ setTimeout(poc,1500);
 function load_beefQueef133(){
 var script = document.createElement('script');script.src = "BeefQueefMod-133.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Beef Queef Mod v1.33... Please Wait !!!"
-LoadedMSG="Beef Queef Mod v1.33 Loaded...";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
@@ -68,47 +91,55 @@ setTimeout(poc,1500);
 function load_beefQueef134(){
 var script = document.createElement('script');script.src = "BeefQueefMod-134.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Beef Queef Mod v1.34... Please Wait !!!"
-LoadedMSG="Beef Queef Mod v1.34 Loaded...";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_beefQueef138(){
-var script = document.createElement('script');script.src = "BeefQueefMod-138.js";document.getElementsByTagName('head')[0].appendChild(script);
-msgs.innerHTML="Loading Beef Queef Mod v1.38... Please Wait !!!"
-LoadedMSG="Beef Queef Mod v1.38 Loaded...";
+var script = document.createElement('script');script.src = "BeefQueefMod-138d.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Beef Queef Mod v1.38d... Please Wait !!!"
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_Expulsion(){
+var script = document.createElement('script');script.src = "Expulsion-v3.0.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Expulsion v3.0... Please Wait !!!"
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_Oysters100(){
-var script = document.createElement('script');script.src = "OystersMenu-100.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "OystersMenu-v1.3.5-1.00.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Oysters Menu v1.00... Please Wait !!!"
-LoadedMSG="Oysters Menu v1.00 Loaded...";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_Oysters113(){
-var script = document.createElement('script');script.src = "OystersMenu-113.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "OystersMenu-v1.3.5-1.13.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Oysters Menu v1.13... Please Wait !!!"
-LoadedMSG="Oysters Menu v1.13 Loaded...";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_Oysters119(){
-var script = document.createElement('script');script.src = "OystersMenu-119.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "OystersMenu-v1.3.5-1.19.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Oysters Menu v1.19... Please Wait !!!"
-LoadedMSG="Oysters Menu v1.19 Loaded...";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_Oysters124(){
-var script = document.createElement('script');script.src = "OystersMenu-124.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "OystersMenu-v1.3.5-1.24.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Oysters Menu v1.24... Please Wait !!!"
-LoadedMSG="Oysters Menu v1.24 Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_Oysters129(){
+var script = document.createElement('script');script.src = "OystersMenu-v1.3.5-1.29.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Oysters Menu v1.29... Please Wait !!!"
 run_jb = "payload";
 setTimeout(poc,1500);
 }
